@@ -195,6 +195,13 @@ p {
 	font-weight:100;
 	line-height: 28px!important;
 }
+p2 {
+	font-size: 18px;
+	font-weight:100;
+	line-height: 28px!important;
+	color:#000;
+}
+
 /* ==========================================================================Lists========================================================================== */
 dl,menu,ol,ul {
 	margin:1em 0;
@@ -221,6 +228,13 @@ svg:not(:root) {
 figure {
 	margin: 0;
 }
+.img img {
+  width: 100%;
+  height: 300px; /* or any height you want for consistency */
+  object-fit: cover;
+}
+
+
 /* ==========================================================================Forms========================================================================== */
 form {
 	margin:0;
@@ -1019,12 +1033,7 @@ ul.social-buttons li:last-child {
 .contact-wrap {
 	position:relative;
 }
-#googlemaps {
-	width:100%;
-	height:300px;
-	left:15px;
-	bottom:25px;
-}
+
 .contact {
 	margin-top:-20px!important;
 }
@@ -1054,8 +1063,8 @@ ul.social-buttons li:last-child {
 }
 
 .btn-send{
-	background:#D95C5C;
-	color: white;
+	background:white;
+	color: black;
 	transition: all 0.4s;
 	border-radius: 0;
 	float: right;
